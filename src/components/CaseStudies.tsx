@@ -5,7 +5,6 @@ export default function CaseStudies() {
     {
       title: "Paycom Collaboration Framework",
       description: "Designed a cross-functional framework that transformed how Product and Design collaborate across five product portfolios",
-      impact: "100% improvement in request quality and strategic design partnership",
       category: "Process & Leadership",
       link: "/case-studies/paycom-framework",
       gradient: "green-emerald" as const,
@@ -14,7 +13,6 @@ export default function CaseStudies() {
     {
       title: "Leadership Development at Scale",
       description: "Developed five team leads through individualized coaching journeys, creating a scalable leadership foundation",
-      impact: "100% leadership growth success and self-sustaining culture",
       category: "Team Building & Mentorship",
       link: "/case-studies/leadership-development",
       gradient: "blue-purple" as const,
@@ -23,7 +21,6 @@ export default function CaseStudies() {
     {
       title: "Crisis Leadership Excellence", 
       description: "Led teams through unexpected transitions and organizational restructuring with calm, clarity, and compassion",
-      impact: "Zero team attrition and 100% project continuity during crisis periods",
       category: "Change Management",
       link: "/case-studies/crisis-leadership",
       gradient: "red-rose" as const,
@@ -63,8 +60,7 @@ export default function CaseStudies() {
               <div className="p-6">
                 <div className="text-sm text-blue-600 font-semibold mb-2">{study.category}</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">{study.title}</h3>
-                <p className="text-gray-600 mb-4">{study.description}</p>
-                <div className="text-sm font-semibold text-green-600 mb-4">{study.impact}</div>
+                <p className="text-gray-600 mb-6">{study.description}</p>
                 {study.link !== "#" ? (
                   <a 
                     href={study.link}

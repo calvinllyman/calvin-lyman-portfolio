@@ -11,7 +11,7 @@ export default function PaycomCaseStudy() {
         ]} 
       />
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20">
+      <section className="bg-gradient-to-br from-green-600 to-emerald-700 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">

@@ -290,36 +290,54 @@ export default function CrisisLeadershipCaseStudy() {
               <div className="space-y-6">
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
                   <h3 className="text-xl font-semibold mb-3 text-blue-800">Operational Excellence</h3>
-                  <ul className="space-y-2 text-gray-700">
+                  <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Continuity:</strong> Design projects stayed on track, deadlines met
+                      <div>
+                        <strong className="text-blue-800">Continuity</strong>
+                        <div className="text-sm mt-1">Design projects stayed on track, deadlines met</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Communication:</strong> Clear upward flow of information maintained
+                      <div>
+                        <strong className="text-blue-800">Communication</strong>
+                        <div className="text-sm mt-1">Clear upward flow of information maintained</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Quality:</strong> Design standards upheld despite disruption
+                      <div>
+                        <strong className="text-blue-800">Quality</strong>
+                        <div className="text-sm mt-1">Design standards upheld despite disruption</div>
+                      </div>
                     </li>
                   </ul>
                 </div>
 
                 <div className="bg-green-50 border-l-4 border-green-500 p-6">
                   <h3 className="text-xl font-semibold mb-3 text-green-800">Team Resilience</h3>
-                  <ul className="space-y-2 text-gray-700">
+                  <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Stability:</strong> Teams remained cohesive and engaged
+                      <div>
+                        <strong className="text-green-800">Stability</strong>
+                        <div className="text-sm mt-1">Teams remained cohesive and engaged</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Retention:</strong> Zero attrition during crisis periods
+                      <div>
+                        <strong className="text-green-800">Retention</strong>
+                        <div className="text-sm mt-1">Zero attrition during crisis periods</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Growth:</strong> Teams emerged stronger from challenges
+                      <div>
+                        <strong className="text-green-800">Growth</strong>
+                        <div className="text-sm mt-1">Teams emerged stronger from challenges</div>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -328,36 +346,54 @@ export default function CrisisLeadershipCaseStudy() {
               <div className="space-y-6">
                 <div className="bg-purple-50 border-l-4 border-purple-500 p-6">
                   <h3 className="text-xl font-semibold mb-3 text-purple-800">Leadership Credibility</h3>
-                  <ul className="space-y-2 text-gray-700">
+                  <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Trust:</strong> Senior leaders relied on consistent, honest updates
+                      <div>
+                        <strong className="text-purple-800">Trust</strong>
+                        <div className="text-sm mt-1">Senior leaders relied on consistent, honest updates</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Reputation:</strong> Established as steady, reliable leader
+                      <div>
+                        <strong className="text-purple-800">Reputation</strong>
+                        <div className="text-sm mt-1">Established as steady, reliable leader</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Balance:</strong> Operational excellence with human empathy
+                      <div>
+                        <strong className="text-purple-800">Balance</strong>
+                        <div className="text-sm mt-1">Operational excellence with human empathy</div>
+                      </div>
                     </li>
                   </ul>
                 </div>
 
                 <div className="bg-orange-50 border-l-4 border-orange-500 p-6">
                   <h3 className="text-xl font-semibold mb-3 text-orange-800">Long-term Impact</h3>
-                  <ul className="space-y-2 text-gray-700">
+                  <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Readiness:</strong> Demonstrated preparedness for higher roles
+                      <div>
+                        <strong className="text-orange-800">Readiness</strong>
+                        <div className="text-sm mt-1">Demonstrated preparedness for higher roles</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Systems:</strong> Created frameworks for future crises
+                      <div>
+                        <strong className="text-orange-800">Systems</strong>
+                        <div className="text-sm mt-1">Created frameworks for future crises</div>
+                      </div>
                     </li>
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                      <strong>Culture:</strong> Established resilient team culture
+                      <div>
+                        <strong className="text-orange-800">Culture</strong>
+                        <div className="text-sm mt-1">Established resilient team culture</div>
+                      </div>
                     </li>
                   </ul>
                 </div>
