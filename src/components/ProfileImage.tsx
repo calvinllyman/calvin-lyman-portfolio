@@ -27,7 +27,7 @@ export default function ProfileImage({ className = "w-full h-full object-cover" 
   
   return (
     <Image
-      src="/images/Calvin_Profile.HEIC"
+      src="/images/IMG_5341.png"
       alt="Calvin Lyman - Design Leader"
       width={400}
       height={400}

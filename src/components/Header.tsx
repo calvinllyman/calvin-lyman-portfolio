@@ -35,7 +35,7 @@ export default function Header() {
           </motion.a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
               <a
                 key={item.name}
@@ -49,7 +49,7 @@ export default function Header() {
           </nav>
 
           {/* CTA Button - Desktop */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <a
               href="/Calvin_Lyman_Resume.pdf"
               download="Calvin_Lyman_Resume.pdf"
@@ -59,10 +59,10 @@ export default function Header() {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile/Tablet Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            className="lg:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors touch-manipulation"
             aria-label="Toggle menu"
           >
             <div className="w-6 h-6 flex flex-col justify-center items-center">
@@ -73,19 +73,19 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile/Tablet Menu */}
         <motion.div
           initial={false}
           animate={{ height: isMenuOpen ? 'auto' : 0, opacity: isMenuOpen ? 1 : 0 }}
           transition={{ duration: 0.3 }}
-          className="md:hidden overflow-hidden"
+          className="lg:hidden overflow-hidden"
         >
           <div className="py-4 space-y-3 border-t border-gray-200">
             {navigation.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors duration-200"
+                className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors duration-200 touch-manipulation"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
@@ -95,7 +95,7 @@ export default function Header() {
               <a
                 href="/Calvin_Lyman_Resume.pdf"
                 download="Calvin_Lyman_Resume.pdf"
-                className="block w-full text-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
+                className="block w-full text-center px-6 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 touch-manipulation"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Download Resume

@@ -8,7 +8,7 @@ export default function CaseStudies() {
       impact: "100% improvement in request quality and strategic design partnership",
       category: "Process & Leadership",
       link: "/case-studies/paycom-framework",
-      gradient: "blue-purple" as const,
+      gradient: "green-emerald" as const,
       iconType: "framework" as const
     },
     {
@@ -17,7 +17,7 @@ export default function CaseStudies() {
       impact: "100% leadership growth success and self-sustaining culture",
       category: "Team Building & Mentorship",
       link: "/case-studies/leadership-development",
-      gradient: "green-emerald" as const,
+      gradient: "blue-purple" as const,
       iconType: "leadership" as const
     },
     {
@@ -40,19 +40,26 @@ export default function CaseStudies() {
         <div className="grid md:grid-cols-3 gap-8">
           {caseStudies.map((study, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
-              <div className="relative">
-                <ImagePlaceholder 
-                  gradient={study.gradient}
-                  iconType={study.iconType}
-                />
-                {study.link !== "#" && (
+              {study.link !== "#" ? (
+                <a href={study.link} className="block relative">
+                  <ImagePlaceholder 
+                    gradient={study.gradient}
+                    iconType={study.iconType}
+                  />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">
                     <span className="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
                       View Case Study →
                     </span>
                   </div>
-                )}
-              </div>
+                </a>
+              ) : (
+                <div className="relative">
+                  <ImagePlaceholder 
+                    gradient={study.gradient}
+                    iconType={study.iconType}
+                  />
+                </div>
+              )}
               <div className="p-6">
                 <div className="text-sm text-blue-600 font-semibold mb-2">{study.category}</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">{study.title}</h3>
