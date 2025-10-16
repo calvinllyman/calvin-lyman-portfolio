@@ -18,22 +18,34 @@ export default function About() {
                 exceptional design outcomes is by developing exceptional leaders. My approach focuses on building 
                 systems that empower teams, processes that scale across portfolios, and people who thrive in complexity.
               </p>
-              <ul className="space-y-3 text-gray-600">
+              <ul className="space-y-4 text-gray-600">
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <strong>Individual-focused leadership development</strong> tailored to each person's growth journey
+                  <div>
+                    <strong className="text-gray-800">Individual-focused leadership development</strong>
+                    <div className="text-sm mt-1">Tailored to each person's growth journey</div>
+                  </div>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <strong>Cross-functional collaboration frameworks</strong> that align Product, Design, and Development
+                  <div>
+                    <strong className="text-gray-800">Cross-functional collaboration frameworks</strong>
+                    <div className="text-sm mt-1">That align Product, Design, and Development</div>
+                  </div>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <strong>Strategic storytelling</strong> that connects design work to measurable business outcomes
+                  <div>
+                    <strong className="text-gray-800">Strategic storytelling</strong>
+                    <div className="text-sm mt-1">That connects design work to measurable business outcomes</div>
+                  </div>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <strong>Scalable design operations</strong> that enable teams to focus on high-impact work
+                  <div>
+                    <strong className="text-gray-800">Scalable design operations</strong>
+                    <div className="text-sm mt-1">That enable teams to focus on high-impact work</div>
+                  </div>
                 </li>
               </ul>
             </div>

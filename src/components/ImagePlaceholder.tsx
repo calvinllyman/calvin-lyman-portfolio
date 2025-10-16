@@ -11,22 +11,34 @@ const gradientMap = {
 
 const iconMap = {
   framework: (
-    <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-      <circle cx="12" cy="12" r="3" fill="white" opacity="0.3"/>
+    // Collaboration Framework - Interconnected workflow/process design
+    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+      <circle cx="7" cy="7" r="2" fill="white" opacity="0.6"/>
+      <circle cx="17" cy="7" r="2" fill="white" opacity="0.6"/>
+      <circle cx="12" cy="17" r="2" fill="white" opacity="0.6"/>
+      <path d="M7 9l5 6M17 9l-5 6" stroke="white" strokeWidth="1" opacity="0.4"/>
     </svg>
   ),
   leadership: (
-    <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0018.5 7H17c-.8 0-1.5.7-1.5 1.5v6c0 .8.7 1.5 1.5 1.5h1v6h2z"/>
-      <path d="M12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5z"/>
-      <path d="M5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm2 16v-7H9l-1.5-4.5C7.2 9.7 6.5 9 5.5 9S3.8 9.7 3.5 10.5L2 15h1.5v7h4z"/>
+    // Leadership Development - Growth/mentorship with upward trajectory
+    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+      <circle cx="5" cy="5" r="2" fill="white" opacity="0.7"/>
+      <circle cx="9" cy="9" r="2" fill="white" opacity="0.7"/>
+      <circle cx="13" cy="13" r="2" fill="white" opacity="0.7"/>
+      <circle cx="17" cy="17" r="2" fill="white" opacity="0.7"/>
+      <path d="M5 7v10M9 11v6M13 15v2" stroke="white" strokeWidth="2" opacity="0.5"/>
     </svg>
   ),
   crisis: (
-    <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-      <path d="M12 6.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5S10.5 8.83 10.5 8s.67-1.5 1.5-1.5z" opacity="0.3"/>
+    // Crisis Leadership - Steady guidance through uncertainty
+    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" fill="none" stroke="white" strokeWidth="1" opacity="0.3"/>
+      <path d="M8 12l2 2 4-4" stroke="white" strokeWidth="2.5" fill="none"/>
+      <circle cx="12" cy="6" r="1.5" fill="white" opacity="0.8"/>
+      <path d="M12 8.5v3" stroke="white" strokeWidth="2" opacity="0.6"/>
     </svg>
   )
 }
