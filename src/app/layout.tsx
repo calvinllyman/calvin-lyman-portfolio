@@ -7,14 +7,14 @@ import ScrollToTop from '@/components/ScrollToTop'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Calvin Lyman | Director of Product Design',
-  description: 'Strategic design leader with proven expertise in cross-functional collaboration, team development, and crisis leadership. Showcasing director-level impact at Paycom and beyond.',
-  keywords: 'Product Design Director, Design Leadership, UX Strategy, Team Development, Design Systems, Paycom',
+  title: 'Calvin Lyman | Manager of Product Design',
+  description: 'Director-level design leader with proven success scaling high-performing teams, embedding design into product strategy, and delivering enterprise-level solutions. 8+ years at Paycom, from Product Designer to Manager.',
+  keywords: 'Product Design Manager, Design Leadership, UX Strategy, Team Development, Design Systems, Paycom, HCM Platform',
   authors: [{ name: 'Calvin Lyman' }],
   creator: 'Calvin Lyman',
   openGraph: {
-    title: 'Calvin Lyman | Director of Product Design Portfolio',
-    description: 'Strategic design leader with proven expertise in cross-functional collaboration, team development, and crisis leadership.',
+    title: 'Calvin Lyman | Manager of Product Design Portfolio',
+    description: 'Director-level design leader with proven success scaling high-performing teams and delivering enterprise-level solutions.',
     type: 'website',
   },
 }

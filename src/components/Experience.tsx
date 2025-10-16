@@ -1,36 +1,53 @@
 export default function Experience() {
   const experiences = [
     {
-      role: "Director of Product Design",
-      company: "Paycom",
-      period: "2022 - Present",
+      role: "Manager of Product Design",
+      company: "Paycom, LLC",
+      period: "2023 - 2025",
       achievements: [
-        "Led design organization across 5 product portfolios with lean team at 1:4 designer-to-PM ratio",
-        "Developed 5 Team Leads through individualized coaching, creating scalable leadership foundation",
-        "Designed cross-functional framework transforming Product-Design collaboration and communication",
-        "Led teams through organizational restructuring with zero attrition and 100% project continuity"
+        "Directed multiple design teams, empowering Team Leads and ICs to deliver consistent, high-quality work across a global HCM platform",
+        "Shaped design strategy for several industry-defining tools such as Gone™, and iWant™",
+        "Established scalable operations (intake processes, Jira-based reporting, design quality guide), improving efficiency and accountability",
+        "Strengthened cross-functional partnerships with Product, Development, and QA, reducing silos and elevating design's role in decision-making",
+        "Navigated organizational change with empathy and clarity, ensuring alignment and sustained team engagement"
       ]
     },
     {
-      role: "Senior Product Designer → Team Lead",
-      company: "Paycom", 
-      period: "2019 - 2022",
+      role: "Product Design Team Lead",
+      company: "Paycom, LLC", 
+      period: "2020 - 2023",
       achievements: [
-        "Stepped up during leadership gap, creating documentation systems and proactive reporting",
-        "Transitioned to management role, establishing communication plans during organizational change",
-        "Built central source of truth systems that became foundation for team operations",
-        "Demonstrated crisis leadership capabilities leading to director-level advancement"
+        "Led strategic design initiatives for products including BETI®, Clue®, Vault™, and others",
+        "Scaled team capacity during reorganization, ensuring delivery of critical projects despite fluctuating staffing levels",
+        "Mentored and coached designers, strengthening team culture and elevating design quality across portfolios",
+        "Championed centralized design systems and templates, enabling scalability across multiple product teams"
       ]
     },
     {
       role: "Senior Product Designer",
-      company: "Previous Companies",
-      period: "2015 - 2019",
+      company: "Paycom, LLC",
+      period: "2020",
       achievements: [
-        "Designed end-to-end user experiences for complex B2B and enterprise products",
-        "Built strong design foundations and cross-functional collaboration skills",
-        "Developed expertise in user research, interaction design, and design systems",
-        "Established reputation for quality delivery and strategic design thinking"
+        "Provided design direction and mentorship during a leadership transition, stabilizing workflows and supporting team delivery",
+        "Elevated design's influence in the product lifecycle, securing earlier and more strategic involvement"
+      ]
+    },
+    {
+      role: "Product Designer / UI Designer",
+      company: "Paycom, LLC",
+      period: "2017 - 2020",
+      achievements: [
+        "Designed and delivered a high volume of product features across Paycom's platform while applying rigorous design principles",
+        "Built strong cross-functional connections across Product, Development, QA, Marketing, and Legal",
+        "Directed design strategy for enterprise features adopted by thousands of clients, improving payroll accuracy and user confidence"
+      ]
+    },
+    {
+      role: "Web Marketing Assistant",
+      company: "Keith May Real Estate",
+      period: "2013 - 2017",
+      achievements: [
+        "Led web marketing strategy and execution to support business growth"
       ]
     }
   ]

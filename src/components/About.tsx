@@ -1,3 +1,5 @@
+import ProfileImage from './ProfileImage'
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-white">
@@ -12,7 +14,7 @@ export default function About() {
                 Leadership Philosophy: Scaling Through People
               </h3>
               <p className="text-gray-600 mb-6">
-                As a Director of Product Design at Paycom, I've learned that the most sustainable way to create 
+                As a Manager of Product Design at Paycom, I've learned that the most sustainable way to create 
                 exceptional design outcomes is by developing exceptional leaders. My approach focuses on building 
                 systems that empower teams, processes that scale across portfolios, and people who thrive in complexity.
               </p>
@@ -35,18 +37,29 @@ export default function About() {
                 </li>
               </ul>
             </div>
-            <div className="relative">
-              <div className="bg-gradient-to-br from-blue-100 to-purple-100 h-80 rounded-lg flex items-center justify-center border-4 border-dashed border-gray-300">
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white text-3xl font-bold">CL</span>
-                  </div>
-                  <p className="text-gray-600 font-medium">Professional Headshot</p>
-                  <p className="text-gray-500 text-sm mt-1">Replace with your photo</p>
+            <div className="space-y-6">
+              <div className="relative">
+                <div className="h-64 rounded-lg overflow-hidden shadow-lg">
+                  <ProfileImage className="w-full h-full object-cover" />
+                </div>
+                <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-3 border">
+                  <p className="text-xs text-gray-500">Manager of Product Design</p>
                 </div>
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-3 border">
-                <p className="text-xs text-gray-500">Director of Product Design</p>
+              
+              {/* Education */}
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h4 className="text-lg font-semibold mb-4 text-gray-800">Education</h4>
+                <div className="space-y-3">
+                  <div>
+                    <div className="font-medium text-gray-900">Master of Divinity</div>
+                    <div className="text-gray-600 text-sm">Oklahoma Christian University</div>
+                  </div>
+                  <div>
+                    <div className="font-medium text-gray-900">Bachelor of Arts, Communications</div>
+                    <div className="text-gray-600 text-sm">Minor in Business • Thomas Edison State University</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

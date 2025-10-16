@@ -9,7 +9,7 @@ export default function CaseStudies() {
       category: "Process & Leadership",
       link: "/case-studies/paycom-framework",
       gradient: "blue-purple" as const,
-      icon: "🤝"
+      iconType: "framework" as const
     },
     {
       title: "Leadership Development at Scale",
@@ -18,7 +18,7 @@ export default function CaseStudies() {
       category: "Team Building & Mentorship",
       link: "/case-studies/leadership-development",
       gradient: "green-emerald" as const,
-      icon: "👥"
+      iconType: "leadership" as const
     },
     {
       title: "Crisis Leadership Excellence", 
@@ -27,7 +27,7 @@ export default function CaseStudies() {
       category: "Change Management",
       link: "/case-studies/crisis-leadership",
       gradient: "red-rose" as const,
-      icon: "🛡️"
+      iconType: "crisis" as const
     }
   ]
 
@@ -42,10 +42,8 @@ export default function CaseStudies() {
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
               <div className="relative">
                 <ImagePlaceholder 
-                  title={study.title}
-                  subtitle="Professional Case Study Image"
                   gradient={study.gradient}
-                  icon={study.icon}
+                  iconType={study.iconType}
                 />
                 {study.link !== "#" && (
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">

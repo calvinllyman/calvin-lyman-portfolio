@@ -13,7 +13,7 @@ export default function Hero() {
         >
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
             Calvin Lyman
-            <span className="block text-blue-600">Director of Product Design</span>
+            <span className="block text-blue-600 text-2xl md:text-3xl font-semibold mt-2">Design Leader Empowering People, Strengthening Process, Elevating Product</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Leading design teams to create exceptional user experiences through strategic vision, 
