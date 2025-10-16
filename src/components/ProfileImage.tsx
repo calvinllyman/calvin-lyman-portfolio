@@ -7,7 +7,7 @@ interface ProfileImageProps {
   className?: string
 }
 
-export default function ProfileImage({ className = "w-full h-full object-cover" }: ProfileImageProps) {
+export default function ProfileImage({ className = "w-full h-full object-contain" }: ProfileImageProps) {
   const [imageError, setImageError] = useState(false)
   
   if (imageError) {

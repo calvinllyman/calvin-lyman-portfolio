@@ -51,8 +51,8 @@ export default function About() {
             </div>
             <div className="space-y-6">
               <div className="relative">
-                <div className="h-64 rounded-lg overflow-hidden shadow-lg">
-                  <ProfileImage className="w-full h-full object-cover" />
+                <div className="h-80 rounded-lg overflow-hidden shadow-lg bg-gray-50">
+                  <ProfileImage className="w-full h-full object-contain" />
                 </div>
                 <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-3 border">
                   <p className="text-xs text-gray-500">Manager of Product Design</p>
