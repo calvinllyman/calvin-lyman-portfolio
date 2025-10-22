@@ -11,6 +11,7 @@ export default function Header() {
     { name: 'About', href: '#about' },
     { name: 'Case Studies', href: '#case-studies' },
     { name: 'Experience', href: '#experience' },
+    { name: 'Experiments', href: '/experiments' },
     { name: 'Contact', href: '#contact' },
   ]
 
