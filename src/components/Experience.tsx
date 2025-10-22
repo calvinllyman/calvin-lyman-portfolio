@@ -37,7 +37,7 @@ export default function Experience() {
       company: "Paycom, LLC",
       period: "2017 - 2020",
       achievements: [
-        "Designed and delivered a high volume of product features across Paycom's platform while applying rigorous design principles",
+        "Designed and delivered a high volume of product features across enterprise platform while applying rigorous design principles",
         "Built strong cross-functional connections across Product, Development, QA, Marketing, and Legal",
         "Directed design strategy for enterprise features adopted by thousands of clients, improving payroll accuracy and user confidence"
       ]

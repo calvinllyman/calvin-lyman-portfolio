@@ -3,10 +3,10 @@ import ImagePlaceholder from './ImagePlaceholder'
 export default function CaseStudies() {
   const caseStudies = [
     {
-      title: "Paycom Collaboration Framework",
+      title: "Enterprise Collaboration Framework",
       description: "Designed a cross-functional framework that transformed how Product and Design collaborate across five product portfolios",
       category: "Process & Leadership",
-      link: "/case-studies/paycom-framework",
+      link: "/case-studies/enterprise-framework",
       gradient: "green-emerald" as const,
       iconType: "framework" as const
     },

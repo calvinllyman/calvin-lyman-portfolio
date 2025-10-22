@@ -352,9 +352,9 @@ export default function LeadershipDevelopmentCaseStudy() {
             <div className="border-t border-gray-200 pt-8">
               <h3 className="text-xl font-semibold mb-4 text-gray-900">More Case Studies</h3>
               <div className="grid sm:grid-cols-2 gap-4">
-                <a href="/case-studies/paycom-framework" className="p-4 bg-white rounded-lg hover:shadow-md transition-shadow border">
-                  <div className="text-blue-600 text-sm font-semibold mb-1">Strategic Leadership</div>
-                  <div className="font-semibold text-gray-900">Paycom Design Framework</div>
+                <a href="/case-studies/enterprise-framework" className="p-4 bg-white rounded-lg hover:shadow-md transition-shadow border">
+                  <div className="text-green-600 text-sm font-semibold mb-1">Process & Leadership</div>
+                  <div className="font-semibold text-gray-900">Enterprise Design Framework</div>
                 </a>
                 <a href="/case-studies/crisis-leadership" className="p-4 bg-white rounded-lg hover:shadow-md transition-shadow border">
                   <div className="text-red-600 text-sm font-semibold mb-1">Change Management</div>

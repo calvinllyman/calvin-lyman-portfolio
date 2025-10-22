@@ -1,5 +1,22 @@
-import PaycomCaseStudy from '@/components/PaycomCaseStudy'
+'use client'
+
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 
 export default function PaycomFrameworkPage() {
-  return <PaycomCaseStudy />
+  const router = useRouter()
+
+  useEffect(() => {
+    // Redirect to the new protected enterprise framework page
+    router.replace('/case-studies/enterprise-framework')
+  }, [router])
+
+  return (
+    <div className="min-h-screen bg-white flex items-center justify-center">
+      <div className="text-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+        <p className="text-gray-600">Redirecting to protected case study...</p>
+      </div>
+    </div>
+  )
 }

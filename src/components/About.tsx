@@ -14,7 +14,7 @@ export default function About() {
                 Leadership Philosophy: Scaling Through People
               </h3>
               <p className="text-gray-600 mb-6">
-                As a Manager of Product Design at Paycom, I've learned that the most sustainable way to create 
+                As a Manager of Product Design, I've learned that the most sustainable way to create 
                 exceptional design outcomes is by developing exceptional leaders. My approach focuses on building 
                 systems that empower teams, processes that scale across portfolios, and people who thrive in complexity.
               </p>

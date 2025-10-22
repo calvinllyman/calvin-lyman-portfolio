@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Calvin Lyman | Manager of Product Design',
-  description: 'Director-level design leader with proven success scaling high-performing teams, embedding design into product strategy, and delivering enterprise-level solutions. 8+ years at Paycom, from Product Designer to Manager.',
-  keywords: 'Product Design Manager, Design Leadership, UX Strategy, Team Development, Design Systems, Paycom, HCM Platform',
+  description: 'Director-level design leader with proven success scaling high-performing teams, embedding design into product strategy, and delivering enterprise-level solutions. 8+ years experience scaling from Product Designer to Manager.',
+  keywords: 'Product Design Manager, Design Leadership, UX Strategy, Team Development, Design Systems, Enterprise Design, HCM Platform',
   authors: [{ name: 'Calvin Lyman' }],
   creator: 'Calvin Lyman',
   openGraph: {
