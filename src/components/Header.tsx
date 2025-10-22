@@ -2,9 +2,12 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { useRouter, usePathname } from 'next/navigation'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const router = useRouter()
+  const pathname = usePathname()
 
   const navigation = [
     { name: 'Home', href: '/' },
@@ -14,6 +17,25 @@ export default function Header() {
     { name: 'Experiments', href: '/experiments' },
     { name: 'Contact', href: '#contact' },
   ]
+
+  const handleNavigation = (href: string) => {
+    // Close mobile menu
+    setIsMenuOpen(false)
+    
+    // If it's an anchor link and we're not on the home page, navigate to home first
+    if (href.startsWith('#') && pathname !== '/') {
+      router.push(`/${href}`)
+    } else if (href.startsWith('#') && pathname === '/') {
+      // If we're on home page, smooth scroll to the anchor
+      const element = document.querySelector(href)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+    } else {
+      // Regular navigation
+      router.push(href)
+    }
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
@@ -36,34 +58,35 @@ export default function Header() {
           </motion.a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-4 xl:space-x-8">
             {navigation.map((item) => (
-              <a
+              <button
                 key={item.name}
-                href={item.href}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
+                onClick={() => handleNavigation(item.href)}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group px-2 py-1 whitespace-nowrap"
               >
                 {item.name}
                 <span className="absolute inset-x-0 -bottom-1 h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
-              </a>
+              </button>
             ))}
           </nav>
 
           {/* CTA Button - Desktop */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4">
             <a
               href="/Calvin_Lyman_Resume.pdf"
               download="Calvin_Lyman_Resume.pdf"
-              className="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
+              className="px-4 xl:px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 text-sm xl:text-base whitespace-nowrap"
             >
-              Download Resume
+              <span className="hidden lg:inline">Download Resume</span>
+              <span className="lg:hidden">Resume</span>
             </a>
           </div>
 
-          {/* Mobile/Tablet Menu Button */}
+          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors touch-manipulation"
+            className="md:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors touch-manipulation"
             aria-label="Toggle menu"
           >
             <div className="w-6 h-6 flex flex-col justify-center items-center">
@@ -74,23 +97,22 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile/Tablet Menu */}
+        {/* Mobile Menu */}
         <motion.div
           initial={false}
           animate={{ height: isMenuOpen ? 'auto' : 0, opacity: isMenuOpen ? 1 : 0 }}
           transition={{ duration: 0.3 }}
-          className="lg:hidden overflow-hidden"
+          className="md:hidden overflow-hidden"
         >
           <div className="py-4 space-y-3 border-t border-gray-200">
             {navigation.map((item) => (
-              <a
+              <button
                 key={item.name}
-                href={item.href}
-                className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors duration-200 touch-manipulation"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => handleNavigation(item.href)}
+                className="block w-full text-left px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors duration-200 touch-manipulation"
               >
                 {item.name}
-              </a>
+              </button>
             ))}
             <div className="px-4 pt-2">
               <a

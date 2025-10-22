@@ -85,25 +85,31 @@ const GlassmorphismCard = ({
   }
 
   const cardStyles = accessible ? {
-    // Accessible version - enhanced readability while maintaining glass effect
+    // Accessible version - ALWAYS maintain WCAG compliance (4.5:1+ contrast)
     ...baseGlassStyle,
-    background: reducedTransparency 
-      ? 'rgba(255, 255, 255, 0.95)' 
-      : 'rgba(255, 255, 255, 0.25)',
-    border: '1px solid rgba(255, 255, 255, 0.3)',
-    boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
+    background: 'rgba(255, 255, 255, 0.9)', // Fixed high opacity for accessibility
+    border: '1px solid rgba(255, 255, 255, 0.4)',
+    boxShadow: '0 8px 32px rgba(0, 0, 0, 0.15)',
+    backdropFilter: reducedMotion ? 'none' : 'blur(8px)', // Reduced blur for better readability
   } : {
-    // Non-accessible version - true glassmorphism with poor readability
+    // Non-accessible version - show the problems with pure glassmorphism
     ...baseGlassStyle,
     background: reducedTransparency 
-      ? 'rgba(255, 255, 255, 0.15)' 
-      : 'rgba(255, 255, 255, 0.08)',
+      ? 'rgba(255, 255, 255, 0.25)'  // Slightly better when user requests less transparency
+      : 'rgba(255, 255, 255, 0.08)', // Very low opacity shows the accessibility problem
     border: '1px solid rgba(255, 255, 255, 0.1)',
     boxShadow: '0 8px 32px rgba(0, 0, 0, 0.06)',
+    backdropFilter: reducedMotion ? 'none' : 'blur(20px)', // Heavy blur adds to readability issues
   }
 
-  const textColor = accessible ? 'text-white' : 'text-white/60'
-  const headingColor = accessible ? 'text-white' : 'text-white/70'
+  // Ensure proper contrast for accessibility
+  const textColor = accessible 
+    ? 'text-gray-900'     // Always dark text on light background for WCAG compliance
+    : 'text-white/50'     // Poor contrast to demonstrate the problem
+  
+  const headingColor = accessible 
+    ? 'text-gray-900'     // Always dark text for headings when accessible
+    : 'text-white/60'     // Poor contrast for non-accessible headings
 
   return (
     <div
@@ -121,7 +127,7 @@ const GlassmorphismCard = ({
             ? 'bg-green-100 text-green-800 border border-green-200' 
             : 'bg-red-100 text-red-800 border border-red-200'
         }`}>
-          {accessible ? 'Accessible' : 'Non-Accessible'}
+          {accessible ? 'WCAG Compliant' : 'Poor Contrast'}
         </div>
       </div>
       <p className={`leading-relaxed ${textColor}`}>
@@ -133,8 +139,8 @@ const GlassmorphismCard = ({
         <button 
           className={`w-full py-2 px-4 rounded-lg font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 ${
             accessible 
-              ? 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 shadow-lg' 
-              : 'bg-blue-400/50 text-white/80 hover:bg-blue-500/60 focus:ring-blue-300'
+              ? 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 shadow-lg'
+              : 'bg-blue-400/40 text-white/70 hover:bg-blue-500/50 focus:ring-blue-300'
           }`}
         >
           Primary Action
@@ -142,8 +148,8 @@ const GlassmorphismCard = ({
         <button 
           className={`w-full py-2 px-4 rounded-lg font-medium border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 ${
             accessible 
-              ? 'border-white/30 text-white hover:bg-white/10 focus:ring-white/50' 
-              : 'border-white/20 text-white/60 hover:bg-white/5 focus:ring-white/30'
+              ? 'border-gray-400 text-gray-700 hover:bg-gray-100 focus:ring-gray-500'
+              : 'border-white/20 text-white/50 hover:bg-white/5 focus:ring-white/30'
           }`}
         >
           Secondary Action
