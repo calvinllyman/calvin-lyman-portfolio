@@ -1,5 +1,9 @@
 import Breadcrumb from './Breadcrumb'
 
+import SelfImprovementIcon from '@mui/icons-material/SelfImprovement'
+import GpsFixedIcon from '@mui/icons-material/GpsFixed'
+import FavoriteIcon from '@mui/icons-material/Favorite'
+
 export default function CrisisLeadershipCaseStudy() {
   return (
     <div className="min-h-screen bg-white">
@@ -238,7 +242,7 @@ export default function CrisisLeadershipCaseStudy() {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🧘</span>
+                  <SelfImprovementIcon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-gray-900">Calm</h3>
                 <p className="text-gray-600">
@@ -248,7 +252,7 @@ export default function CrisisLeadershipCaseStudy() {
               
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🎯</span>
+                  <GpsFixedIcon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-gray-900">Clarity</h3>
                 <p className="text-gray-600">
@@ -257,10 +261,10 @@ export default function CrisisLeadershipCaseStudy() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">❤️</span>
+                <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FavoriteIcon className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibent mb-3 text-gray-900">Compassion</h3>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">Compassion</h3>
                 <p className="text-gray-600">
                   Acknowledging human emotions and providing psychological safety during transitions
                 </p>

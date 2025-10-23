@@ -1,3 +1,8 @@
+import ExploreIcon from '@mui/icons-material/Explore'
+import SecurityIcon from '@mui/icons-material/Security'
+import TrendingUpIcon from '@mui/icons-material/TrendingUp'
+import CheckCircleIcon from '@mui/icons-material/CheckCircle'
+
 interface ImagePlaceholderProps {
   gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo'
   iconType: 'framework' | 'leadership' | 'crisis' | 'strategy'
@@ -11,47 +16,10 @@ const gradientMap = {
 }
 
 const iconMap = {
-  strategy: (
-    // Strategic Alignment - Compass/direction with interconnected elements
-    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
-      <circle cx="12" cy="12" r="3" fill="none" stroke="white" strokeWidth="1.5" opacity="0.7"/>
-      <path d="M12 9v6M9 12h6" stroke="white" strokeWidth="2" opacity="0.8"/>
-      <circle cx="6" cy="6" r="1.5" fill="white" opacity="0.6"/>
-      <circle cx="18" cy="18" r="1.5" fill="white" opacity="0.6"/>
-    </svg>
-  ),
-  framework: (
-    // Collaboration Framework - Interconnected workflow/process design
-    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-      <circle cx="7" cy="7" r="2" fill="white" opacity="0.6"/>
-      <circle cx="17" cy="7" r="2" fill="white" opacity="0.6"/>
-      <circle cx="12" cy="17" r="2" fill="white" opacity="0.6"/>
-      <path d="M7 9l5 6M17 9l-5 6" stroke="white" strokeWidth="1" opacity="0.4"/>
-    </svg>
-  ),
-  leadership: (
-    // Leadership Development - Growth/mentorship with upward trajectory
-    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
-      <circle cx="5" cy="5" r="2" fill="white" opacity="0.7"/>
-      <circle cx="9" cy="9" r="2" fill="white" opacity="0.7"/>
-      <circle cx="13" cy="13" r="2" fill="white" opacity="0.7"/>
-      <circle cx="17" cy="17" r="2" fill="white" opacity="0.7"/>
-      <path d="M5 7v10M9 11v6M13 15v2" stroke="white" strokeWidth="2" opacity="0.5"/>
-    </svg>
-  ),
-  crisis: (
-    // Crisis Leadership - Steady guidance through uncertainty
-    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-      <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" fill="none" stroke="white" strokeWidth="1" opacity="0.3"/>
-      <path d="M8 12l2 2 4-4" stroke="white" strokeWidth="2.5" fill="none"/>
-      <circle cx="12" cy="6" r="1.5" fill="white" opacity="0.8"/>
-      <path d="M12 8.5v3" stroke="white" strokeWidth="2" opacity="0.6"/>
-    </svg>
-  )
+  strategy: <ExploreIcon sx={{ fontSize: 64, color: 'white' }} />,
+  framework: <SecurityIcon sx={{ fontSize: 64, color: 'white' }} />,
+  leadership: <TrendingUpIcon sx={{ fontSize: 64, color: 'white' }} />,
+  crisis: <CheckCircleIcon sx={{ fontSize: 64, color: 'white' }} />
 }
 
 export default function ImagePlaceholder({ gradient, iconType }: ImagePlaceholderProps) {

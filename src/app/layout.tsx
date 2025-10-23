@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import ScrollToTop from '@/components/ScrollToTop'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -12,6 +13,11 @@ export const metadata: Metadata = {
   keywords: 'Product Design Manager, Design Leadership, UX Strategy, Team Development, Design Systems, Enterprise Design, HCM Platform',
   authors: [{ name: 'Calvin Lyman' }],
   creator: 'Calvin Lyman',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: 'Calvin Lyman | Manager of Product Design Portfolio',
     description: 'Director-level design leader with proven success scaling high-performing teams and delivering enterprise-level solutions.',
@@ -31,6 +37,7 @@ export default function RootLayout({
         <main className="pt-16">
           {children}
         </main>
+        <Footer />
         <ScrollToTop />
       </body>
     </html>

@@ -55,7 +55,7 @@ export default function About() {
                   <ProfileImage className="w-full h-full object-contain" />
                 </div>
                 <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-3 border">
-                  <p className="text-xs text-gray-700">Manager of Product Design</p>
+                  <p className="text-xs text-gray-700">Calvin Lyman, Purpose-Driven Design Leader</p>
                 </div>
               </div>
               

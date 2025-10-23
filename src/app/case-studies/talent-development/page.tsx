@@ -2,18 +2,17 @@
 
 import { useState } from 'react'
 import Breadcrumb from '@/components/Breadcrumb'
-import EnterpriseFrameworkCaseStudy from '@/components/EnterpriseFrameworkCaseStudy'
+import TalentDevelopmentCaseStudy from '@/components/TalentDevelopmentCaseStudy'
 import LockIcon from '@mui/icons-material/Lock'
 import EmailIcon from '@mui/icons-material/Email'
 
-export default function EnterpriseFrameworkPage() {
+export default function TalentDevelopmentPage() {
   const [password, setPassword] = useState('')
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [isError, setIsError] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Simple password check - in production, this should be more secure
     if (password === 'leadershipwithpurpose') {
       setIsAuthenticated(true)
       setIsError(false)
@@ -23,22 +22,36 @@ export default function EnterpriseFrameworkPage() {
     }
   }
 
-  if (!isAuthenticated) {
+  if (isAuthenticated) {
     return (
-      <div className="min-h-screen bg-white">
+      <>
         <Breadcrumb 
           items={[
             { name: 'Home', href: '/' },
             { name: 'Case Studies', href: '/#case-studies' },
-            { name: 'Enterprise Collaboration Framework', href: '/case-studies/enterprise-framework' }
-          ]} 
+            { name: 'Talent Development Framework', href: '' }
+          ]}
         />
-        
+        <TalentDevelopmentCaseStudy />
+      </>
+    )
+  }
+
+  return (
+    <>
+      <Breadcrumb 
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Case Studies', href: '/#case-studies' },
+          { name: 'Talent Development Framework', href: '' }
+        ]}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 py-12">
         <div className="container mx-auto px-6 py-20">
           <div className="max-w-md mx-auto">
             <div className="bg-white rounded-lg shadow-lg p-8 border">
               <div className="text-center mb-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-emerald-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
                   <LockIcon className="w-8 h-8 text-white" />
                 </div>
                 <h1 className="text-2xl font-bold text-gray-900 mb-2">Protected Case Study</h1>
@@ -57,7 +70,9 @@ export default function EnterpriseFrameworkPage() {
                     id="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors ${
+                      isError ? 'border-red-500 bg-red-50' : 'border-gray-300'
+                    }`}
                     placeholder="Enter password"
                     required
                   />
@@ -70,20 +85,19 @@ export default function EnterpriseFrameworkPage() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-green-600 to-emerald-700 text-white py-3 px-6 rounded-lg font-semibold hover:from-green-700 hover:to-emerald-800 transition-all duration-200"
+                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-[1.02]"
                 >
                   Access Case Study
                 </button>
               </form>
 
-              <div className="mt-8 p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-semibold text-gray-900 mb-2">Need Access?</h3>
-                <p className="text-sm text-gray-600 mb-3">
-                  This case study contains confidential enterprise information. If you'd like to review this work, please contact me for the password.
+              <div className="mt-8 pt-6 border-t border-gray-200 text-center">
+                <p className="text-gray-600 text-sm mb-4">
+                  Don't have access? Request permission to view this case study.
                 </p>
                 <a
-                  href="mailto:contact@calvinlyman.com?subject=Request for Enterprise Framework Case Study Access"
-                  className="inline-flex items-center text-sm font-medium text-green-600 hover:text-green-700"
+                  href="mailto:contact@calvinlyman.com?subject=Request for Talent Development Case Study Access"
+                  className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700"
                 >
                   <EmailIcon className="w-4 h-4 mr-2" />
                   Request Access
@@ -93,8 +107,6 @@ export default function EnterpriseFrameworkPage() {
           </div>
         </div>
       </div>
-    )
-  }
-
-  return <EnterpriseFrameworkCaseStudy />
+    </>
+  )
 }

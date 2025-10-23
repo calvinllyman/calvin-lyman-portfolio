@@ -27,3 +27,24 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Ensure hero content is always visible */
+@layer components {
+  .hero-content {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  
+  /* Improve hardware acceleration for smooth animations */
+  .transform-gpu {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  /* Prevent layout shifts during loading */
+  .hero-section {
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile */
+  }
+}

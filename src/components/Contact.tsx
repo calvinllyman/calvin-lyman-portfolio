@@ -1,4 +1,8 @@
-﻿export default function Contact() {
+﻿import EmailIcon from '@mui/icons-material/Email'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import PhoneIcon from '@mui/icons-material/Phone'
+
+export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-gray-900 text-white">
       <div className="container mx-auto px-6">
@@ -17,10 +21,7 @@
               className="text-center hover:scale-105 transition-transform duration-200"
             >
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-blue-700 transition-colors">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                </svg>
+                <EmailIcon className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-semibold mb-2">Email</h3>
               <p className="text-gray-300 hover:text-white transition-colors">calvinlyman@gmail.com</p>
@@ -33,9 +34,7 @@
               className="text-center hover:scale-105 transition-transform duration-200"
             >
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-blue-700 transition-colors">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
+                <LinkedInIcon className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-semibold mb-2">LinkedIn</h3>
               <p className="text-gray-300 hover:text-white transition-colors">Connect with me</p>
@@ -46,9 +45,7 @@
               className="text-center hover:scale-105 transition-transform duration-200"
             >
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-blue-700 transition-colors">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-                </svg>
+                <PhoneIcon className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-semibold mb-2">Phone</h3>
               <p className="text-gray-300 hover:text-white transition-colors">(405) 421-4220</p>
