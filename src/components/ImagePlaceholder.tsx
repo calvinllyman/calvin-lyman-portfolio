@@ -1,15 +1,26 @@
 interface ImagePlaceholderProps {
-  gradient: 'blue-purple' | 'green-emerald' | 'red-rose'
-  iconType: 'framework' | 'leadership' | 'crisis'
+  gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo'
+  iconType: 'framework' | 'leadership' | 'crisis' | 'strategy'
 }
 
 const gradientMap = {
   'blue-purple': 'from-blue-600 via-blue-500 to-purple-600',
   'green-emerald': 'from-green-600 via-emerald-500 to-teal-600', 
-  'red-rose': 'from-red-600 via-red-500 to-rose-600'
+  'red-rose': 'from-red-600 via-red-500 to-rose-600',
+  'purple-indigo': 'from-purple-600 via-indigo-500 to-violet-600'
 }
 
 const iconMap = {
+  strategy: (
+    // Strategic Alignment - Compass/direction with interconnected elements
+    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+      <circle cx="12" cy="12" r="3" fill="none" stroke="white" strokeWidth="1.5" opacity="0.7"/>
+      <path d="M12 9v6M9 12h6" stroke="white" strokeWidth="2" opacity="0.8"/>
+      <circle cx="6" cy="6" r="1.5" fill="white" opacity="0.6"/>
+      <circle cx="18" cy="18" r="1.5" fill="white" opacity="0.6"/>
+    </svg>
+  ),
   framework: (
     // Collaboration Framework - Interconnected workflow/process design
     <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

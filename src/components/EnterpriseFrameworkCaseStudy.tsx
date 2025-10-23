@@ -69,7 +69,7 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-xl">📝</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Intake & Requirements</h3>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">Intake & Requirements</h3>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Standardized project intake forms</li>
                   <li>• Business goals definition</li>
@@ -82,7 +82,7 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-xl">⚡</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Prioritization</h3>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">Prioritization</h3>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Business urgency criteria</li>
                   <li>• User impact assessment</li>
@@ -95,7 +95,7 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-xl">📊</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Visibility</h3>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">Visibility</h3>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Jira dashboard integration</li>
                   <li>• Workload distribution tracking</li>
@@ -108,7 +108,7 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white text-xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Storytelling</h3>
+                <h3 className="text-xl font-semibold mb-3 text-gray-900">Storytelling</h3>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Outcome-focused reviews</li>
                   <li>• User value connection</li>
@@ -188,7 +188,7 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🤝</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Bridge Building</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">Bridge Building</h3>
                 <p className="text-gray-300">
                   Successful design leadership requires creating systems that serve both teams equally
                 </p>
@@ -197,7 +197,7 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">📈</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Scalable Systems</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">Scalable Systems</h3>
                 <p className="text-gray-300">
                   Process design must balance structure with flexibility to handle diverse portfolios
                 </p>
@@ -206,7 +206,7 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Story Power</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">Story Power</h3>
                 <p className="text-gray-300">
                   Teaching teams to connect work to outcomes transforms organizational perception
                 </p>

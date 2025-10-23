@@ -70,14 +70,14 @@ export default function LeadershipDevelopmentCaseStudy() {
             <h2 className="text-3xl font-bold mb-12 text-gray-900 text-center">Individualized Development Journeys</h2>
             
             <div className="space-y-8">
-              {/* Mallory */}
+              {/* Team Lead A */}
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white text-xl font-bold">M</span>
+                    <span className="text-white text-xl font-bold">A</span>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Mallory</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Team Lead A</h3>
                     <p className="text-blue-600 font-semibold mb-4">From Detail-Oriented to Diplomatically Influential</p>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
@@ -101,14 +101,14 @@ export default function LeadershipDevelopmentCaseStudy() {
                 </div>
               </div>
 
-              {/* Jidnya */}
+              {/* Team Lead B */}
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white text-xl font-bold">J</span>
+                    <span className="text-white text-xl font-bold">B</span>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Jidnya</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Team Lead B</h3>
                     <p className="text-purple-600 font-semibold mb-4">From Team Unity to Cross-Functional Influence</p>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
@@ -132,14 +132,14 @@ export default function LeadershipDevelopmentCaseStudy() {
                 </div>
               </div>
 
-              {/* Rutvij */}
+              {/* Team Lead C */}
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white text-xl font-bold">R</span>
+                    <span className="text-white text-xl font-bold">C</span>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Rutvij</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Team Lead C</h3>
                     <p className="text-green-600 font-semibold mb-4">From Designer to Emerging Leader</p>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
@@ -163,14 +163,14 @@ export default function LeadershipDevelopmentCaseStudy() {
                 </div>
               </div>
 
-              {/* Jon */}
+              {/* Team Lead D */}
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white text-xl font-bold">J</span>
+                    <span className="text-white text-xl font-bold">D</span>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Jon</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Team Lead D</h3>
                     <p className="text-indigo-600 font-semibold mb-4">From Trusted Team Lead to Strategic Contributor</p>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
@@ -194,14 +194,14 @@ export default function LeadershipDevelopmentCaseStudy() {
                 </div>
               </div>
 
-              {/* Kale */}
+              {/* Team Lead E */}
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white text-xl font-bold">K</span>
+                    <span className="text-white text-xl font-bold">E</span>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Kale</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Team Lead E</h3>
                     <p className="text-orange-600 font-semibold mb-4">From Subject Matter Expert to Cross-Functional Leader</p>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
@@ -295,7 +295,7 @@ export default function LeadershipDevelopmentCaseStudy() {
                 <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Individual Focus</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">Individual Focus</h3>
                 <p className="text-gray-300">
                   Each leader needs a unique development path based on their strengths, challenges, and career aspirations
                 </p>
@@ -304,7 +304,7 @@ export default function LeadershipDevelopmentCaseStudy() {
                 <div className="w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🌱</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Growth Mindset</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">Growth Mindset</h3>
                 <p className="text-gray-300">
                   Coaching for their next role, not just their current one, creates leaders who scale with the organization
                 </p>
@@ -313,7 +313,7 @@ export default function LeadershipDevelopmentCaseStudy() {
                 <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🏗️</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">System Building</h3>
+                <h3 className="text-xl font-semibold mb-3 text-white">System Building</h3>
                 <p className="text-gray-300">
                   Developing leaders creates sustainable systems that outlast any single person's involvement
                 </p>
@@ -352,13 +352,13 @@ export default function LeadershipDevelopmentCaseStudy() {
             <div className="border-t border-gray-200 pt-8">
               <h3 className="text-xl font-semibold mb-4 text-gray-900">More Case Studies</h3>
               <div className="grid sm:grid-cols-2 gap-4">
+                <a href="/case-studies/strategic-alignment" className="p-4 bg-white rounded-lg hover:shadow-md transition-shadow border">
+                  <div className="text-purple-600 text-sm font-semibold mb-1">Strategic Leadership</div>
+                  <div className="font-semibold text-gray-900">Strategic Alignment Initiative</div>
+                </a>
                 <a href="/case-studies/enterprise-framework" className="p-4 bg-white rounded-lg hover:shadow-md transition-shadow border">
                   <div className="text-green-600 text-sm font-semibold mb-1">Process & Leadership</div>
                   <div className="font-semibold text-gray-900">Enterprise Design Framework</div>
-                </a>
-                <a href="/case-studies/crisis-leadership" className="p-4 bg-white rounded-lg hover:shadow-md transition-shadow border">
-                  <div className="text-red-600 text-sm font-semibold mb-1">Change Management</div>
-                  <div className="font-semibold text-gray-900">Crisis Leadership Excellence</div>
                 </a>
               </div>
             </div>

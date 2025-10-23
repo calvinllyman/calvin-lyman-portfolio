@@ -19,7 +19,7 @@ export default function ProfileImage({ className = "w-full h-full object-contain
             <span className="text-white text-3xl font-bold">CL</span>
           </div>
           <p className="text-gray-600 font-medium">Calvin Lyman</p>
-          <p className="text-gray-500 text-sm mt-1">Design Leader</p>
+          <p className="text-gray-700 text-sm mt-1">Design Leader</p>
         </div>
       </div>
     )

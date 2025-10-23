@@ -3,6 +3,14 @@ import ImagePlaceholder from './ImagePlaceholder'
 export default function CaseStudies() {
   const caseStudies = [
     {
+      title: "Strategic Alignment Initiative",
+      description: "Aligned design strategy with enterprise modernization, bridging short-term wins with long-term React migration goals",
+      category: "Strategic Leadership",
+      link: "/case-studies/strategic-alignment",
+      gradient: "purple-indigo" as const,
+      iconType: "strategy" as const
+    },
+    {
       title: "Enterprise Collaboration Framework",
       description: "Designed a cross-functional framework that transformed how Product and Design collaborate across five product portfolios",
       category: "Process & Leadership",
