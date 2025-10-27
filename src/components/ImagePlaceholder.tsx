@@ -4,7 +4,7 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 
 interface ImagePlaceholderProps {
-  gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo'
+  gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo' | 'teal-sapphire'
   iconType: 'framework' | 'leadership' | 'crisis' | 'strategy'
 }
 
@@ -12,7 +12,8 @@ const gradientMap = {
   'blue-purple': 'from-blue-600 via-blue-500 to-purple-600',
   'green-emerald': 'from-green-600 via-emerald-500 to-teal-600', 
   'red-rose': 'from-red-600 via-red-500 to-rose-600',
-  'purple-indigo': 'from-purple-600 via-indigo-500 to-violet-600'
+  'purple-indigo': 'from-purple-600 via-indigo-500 to-violet-600',
+  'teal-sapphire': 'from-teal-600 via-cyan-500 to-sky-600'
 }
 
 const iconMap = {

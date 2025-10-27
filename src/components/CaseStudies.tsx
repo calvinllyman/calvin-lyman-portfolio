@@ -27,6 +27,14 @@ export default function CaseStudies({ showAll = false }: { showAll?: boolean }) 
       iconType: "leadership" as const
     },
     {
+      title: "Leadership Development Accelerator",
+      description: "Mentored design leaders through a structured growth plan that improved retention, confidence, and cross-functional influence",
+      category: "Team Development",
+      link: "/case-studies/leadership-development",
+      gradient: "teal-sapphire" as const,
+      iconType: "leadership" as const
+    },
+    {
       title: "Strategic Alignment Initiative",
       description: "Aligned design strategy with enterprise modernization, bridging short-term wins with long-term React migration goals",
       category: "Strategic Leadership",
