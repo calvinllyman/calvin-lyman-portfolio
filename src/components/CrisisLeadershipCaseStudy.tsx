@@ -290,6 +290,118 @@ export default function CrisisLeadershipCaseStudy() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">Consistent Crisis Leadership Outcomes</h2>
             
+            {/* Gallup Engagement Metrics */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-xl p-8 mb-12">
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Engagement Through Crisis</h3>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                Over five pulses (Oct '23–Oct '24), our team maintained a <strong className="text-blue-700">4.04 Gallup composite</strong> (top 45th percentile) 
+                with <strong className="text-blue-700">±0.04 variance</strong>, despite multiple leadership and process changes. 
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 shadow-sm">
+                  <div className="text-sm text-gray-600 mb-2">Composite Trend (Last 5 Pulses)</div>
+                  <div className="text-3xl font-bold text-blue-700 mb-2">4.04</div>
+                  <div className="text-sm text-gray-600">4.04 → 3.99 → 4.09 → 4.01 → 4.09</div>
+                  <div className="text-xs text-green-600 mt-2">Std dev: 0.04 (exceptionally stable)</div>
+                </div>
+                
+                <div className="bg-white rounded-lg p-5 shadow-sm">
+                  <div className="text-sm text-gray-600 mb-2">Biggest Lift: Expectations Clarity</div>
+                  <div className="text-3xl font-bold text-green-700 mb-2">+20%</div>
+                  <div className="text-sm text-gray-600">"I know what's expected of me"</div>
+                  <div className="text-xs text-gray-600 mt-2">3.94 → 4.14 after role blueprints + scorecards</div>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-4 mb-6">
+                <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded">
+                  <div className="text-sm font-semibold text-green-800 mb-1">Clarity +5%</div>
+                  <div className="text-xs text-gray-700">"I know what's expected" rose after we shipped role blueprints</div>
+                </div>
+                
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                  <div className="text-sm font-semibold text-blue-800 mb-1">Voice Matters</div>
+                  <div className="text-xs text-gray-700">"My opinions count" lifted from structured feedback sessions</div>
+                </div>
+                
+                <div className="bg-purple-50 border-l-4 border-purple-500 p-4 rounded">
+                  <div className="text-sm font-semibold text-purple-800 mb-1">Belonging Grows</div>
+                  <div className="text-xs text-gray-700">"Best friend at work" increased via co-location strategy</div>
+                </div>
+              </div>
+
+              <div className="bg-white/60 rounded-lg p-5 border border-blue-200">
+                <h4 className="font-semibold text-gray-900 mb-3">How We Did It</h4>
+                <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
+                  <div>
+                    <strong className="text-blue-700">Blueprints & Scorecards → Clarity:</strong> Publishing clear expectations 
+                    by role/seniority + using scorecards in 1:1s directly preceded the +0.20 jump on "expectations are clear"
+                  </div>
+                  <div>
+                    <strong className="text-blue-700">Feedback Cadence → Voice & Care:</strong> Quarterly surveys, structured retros, 
+                    and "you said / we did" loops improved "opinion counts" and "supervisor cares"
+                  </div>
+                  <div>
+                    <strong className="text-blue-700">Ritualized Change → Stability:</strong> Despite 3–4 leadership/process shifts, 
+                    we held engagement at ~4.04 by keeping team-level expectations constant
+                  </div>
+                  <div>
+                    <strong className="text-blue-700">Co-location & Touchpoints → Belonging:</strong> Intentional on-site days 
+                    and shared rituals deepened peer connections
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Operational Continuity Callout */}
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-xl p-8 mt-8 mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">✅ Operational Continuity</h3>
+              <p className="text-gray-700 mb-6">Despite organizational disruption, leadership stability protected business outcomes:</p>
+              
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-white/60 rounded-lg p-4 border border-green-200">
+                  <div className="flex items-start">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <div>
+                      <strong className="text-green-700">100% On-time Delivery:</strong>
+                      <div className="text-sm text-gray-700 mt-1">Maintained delivery for critical project milestones</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-white/60 rounded-lg p-4 border border-green-200">
+                  <div className="flex items-start">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <div>
+                      <strong className="text-green-700">Zero Escalations:</strong>
+                      <div className="text-sm text-gray-700 mt-1">No design-related delays escalated to senior leadership</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-white/60 rounded-lg p-4 border border-green-200">
+                  <div className="flex items-start">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <div>
+                      <strong className="text-green-700">Business Protection:</strong>
+                      <div className="text-sm text-gray-700 mt-1">Zero client-facing delays during internal restructuring</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-white/60 rounded-lg p-4 border border-green-200">
+                  <div className="flex items-start">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <div>
+                      <strong className="text-green-700">Risk Mitigation:</strong>
+                      <div className="text-sm text-gray-700 mt-1">Proactive communication prevented project delays and rework</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
@@ -402,6 +514,15 @@ export default function CrisisLeadershipCaseStudy() {
                   </ul>
                 </div>
               </div>
+            </div>
+
+            {/* Humanity Footnote */}
+            <div className="mt-8 bg-gradient-to-r from-red-50 to-rose-50 border-l-4 border-red-500 p-6 rounded-lg">
+              <p className="text-gray-700 italic leading-relaxed">
+                We treated change as something we do <strong className="text-red-700">with</strong> people, not <strong className="text-red-700">to</strong> them—listening 
+                first, then co-creating expectations. <span className="text-red-600">"Let each of you look not only to his own interests, 
+                but also to the interests of others."</span> — Philippians 2:4
+              </p>
             </div>
           </div>
         </div>

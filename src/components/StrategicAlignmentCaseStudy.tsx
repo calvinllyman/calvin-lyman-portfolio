@@ -226,6 +226,36 @@ export default function StrategicAlignmentCaseStudy() {
               </div>
             </div>
 
+            {/* Business Context & Timeline */}
+            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-xl p-8 mb-8">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">📈 Business Context</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                <strong className="text-indigo-700">Timeline: Q4 2023 - Q3 2024</strong>
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                This design work supported the company through a period of sustained growth and product expansion, 
+                contributing to broader organizational momentum during enterprise modernization efforts. The strategic 
+                alignment ensured design remained a growth enabler rather than a bottleneck.
+              </p>
+              
+              <div className="grid md:grid-cols-3 gap-4 mt-6">
+                <div className="bg-white/60 rounded-lg p-4 border border-indigo-200">
+                  <div className="text-sm font-semibold text-indigo-800 mb-1">Accelerated Timeline</div>
+                  <div className="text-xs text-gray-700">Visual improvements provided immediate value while React work progressed</div>
+                </div>
+                
+                <div className="bg-white/60 rounded-lg p-4 border border-indigo-200">
+                  <div className="text-sm font-semibold text-indigo-800 mb-1">Cross-functional Unity</div>
+                  <div className="text-xs text-gray-700">Unified design and engineering roadmaps across 10+ product teams</div>
+                </div>
+                
+                <div className="bg-white/60 rounded-lg p-4 border border-indigo-200">
+                  <div className="text-sm font-semibold text-indigo-800 mb-1">Technical Debt Reduction</div>
+                  <div className="text-xs text-gray-700">React strategy positioned team for faster component development</div>
+                </div>
+              </div>
+            </div>
+
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
                 <h3 className="text-xl font-semibold mb-4 text-green-800">Strategic Impact</h3>

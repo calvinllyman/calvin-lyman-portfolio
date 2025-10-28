@@ -86,6 +86,47 @@ export default function TalentDevelopmentCaseStudy() {
             {/* Result */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold mb-6 text-gray-900">Result</h2>
+              
+              {/* Framework Reach & Adoption */}
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-xl p-8 mb-8">
+                <h3 className="text-2xl font-bold mb-6 text-gray-900">📊 Framework Reach & Adoption</h3>
+                
+                <div className="grid md:grid-cols-3 gap-6 mb-6">
+                  <div className="bg-white rounded-lg p-5 shadow-sm text-center">
+                    <div className="text-4xl font-bold text-purple-700 mb-2">50+</div>
+                    <div className="text-sm text-gray-600">Designers Using Scorecards</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-lg p-5 shadow-sm text-center">
+                    <div className="text-4xl font-bold text-pink-700 mb-2">200+</div>
+                    <div className="text-sm text-gray-600">Employees Influenced Company-wide</div>
+                  </div>
+                  
+                  <div className="bg-white rounded-lg p-5 shadow-sm text-center">
+                    <div className="text-4xl font-bold text-blue-700 mb-2">5</div>
+                    <div className="text-sm text-gray-600">Team Leads Trained</div>
+                  </div>
+                </div>
+
+                <div className="bg-white/60 rounded-lg p-5 border border-purple-200 mb-4">
+                  <h4 className="font-semibold text-gray-900 mb-3">Cultural Shift</h4>
+                  <div className="space-y-2 text-sm text-gray-700">
+                    <p>
+                      <strong className="text-purple-700">Unified Performance Expectations:</strong> Created shared language for 
+                      growth and development across entire design organization
+                    </p>
+                    <p>
+                      <strong className="text-purple-700">Standardized Growth Paths:</strong> Clear expectations reduced ambiguity 
+                      that often leads to designer attrition
+                    </p>
+                    <p>
+                      <strong className="text-purple-700">Leadership Pipeline:</strong> Scorecard system identified high-performers 
+                      for leadership track development
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
               <div className="bg-purple-50 border-l-4 border-purple-500 p-6">
                 <div className="space-y-4">
                   <div>

@@ -235,6 +235,48 @@ export default function LeadershipDevelopmentCaseStudy() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">Collective Leadership Impact</h2>
             
+            {/* Collective Impact Metrics */}
+            <div className="bg-gradient-to-br from-purple-50 to-indigo-50 border-2 border-purple-200 rounded-xl p-8 mb-12">
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">Team Scope & Business Contribution</h3>
+              
+              <div className="grid md:grid-cols-3 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 shadow-sm text-center">
+                  <div className="text-4xl font-bold text-purple-700 mb-2">5</div>
+                  <div className="text-sm text-gray-600">Mentored Design Leaders</div>
+                </div>
+                
+                <div className="bg-white rounded-lg p-5 shadow-sm text-center">
+                  <div className="text-4xl font-bold text-blue-700 mb-2">~30</div>
+                  <div className="text-sm text-gray-600">Designers Collectively Managed</div>
+                  <div className="text-xs text-gray-500 mt-1">(5-6 per team)</div>
+                </div>
+                
+                <div className="bg-white rounded-lg p-5 shadow-sm text-center">
+                  <div className="text-4xl font-bold text-green-700 mb-2">100%</div>
+                  <div className="text-sm text-gray-600">Leader Retention</div>
+                  <div className="text-xs text-gray-500 mt-1">Through mentorship period</div>
+                </div>
+              </div>
+
+              <div className="bg-white/60 rounded-lg p-5 border border-purple-200">
+                <h4 className="font-semibold text-gray-900 mb-3">Leadership Bench Strength</h4>
+                <div className="space-y-2 text-sm text-gray-700">
+                  <p>
+                    <strong className="text-purple-700">Distributed Leadership:</strong> 5 leaders managing 30 designers provided 
+                    stable, distributed leadership across critical product areas during organizational growth
+                  </p>
+                  <p>
+                    <strong className="text-purple-700">Multiplier Effect:</strong> Each mentored leader went on to develop their 
+                    own team members, cascading leadership principles to 30+ additional designers
+                  </p>
+                  <p>
+                    <strong className="text-purple-700">Expanded Capacity:</strong> Built leadership capacity without external hires, 
+                    creating sustainable growth from within
+                  </p>
+                </div>
+              </div>
+            </div>
+            
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-green-50 border-l-4 border-green-500 p-6">
                 <h3 className="text-xl font-semibold mb-4 text-green-800">Individual Growth</h3>

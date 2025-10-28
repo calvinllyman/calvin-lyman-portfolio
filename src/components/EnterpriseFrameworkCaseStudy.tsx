@@ -120,8 +120,59 @@ export default function EnterpriseFrameworkCaseStudy() {
       {/* Key Impact Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8 text-gray-900">Measurable Leadership Impact</h2>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">Measurable Leadership Impact</h2>
+            
+            {/* Framework Scale & Impact */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-xl p-8 mb-12">
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">Framework Scale & Impact</h3>
+              
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 shadow-sm">
+                  <div className="text-sm text-gray-600 mb-2">Organization Scope</div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                      <strong className="text-blue-700">50+ designers</strong> across 5 design teams
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                      <strong className="text-blue-700">100+ Product Managers</strong> submitting design requests
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                      Enterprise-wide process transformation
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="bg-white rounded-lg p-5 shadow-sm">
+                  <div className="text-sm text-gray-600 mb-2">Efficiency Gains</div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                      <strong className="text-green-700">86% reduction</strong> in past-due design delivery
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                      Absorbed <strong className="text-green-700">30-40% more requests</strong> without headcount increase
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                      Reduced PM/designer escalations to structured collaboration
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-white/60 rounded-lg p-5 border border-blue-200">
+                <p className="text-sm text-gray-700">
+                  <strong className="text-blue-700">Capacity Creation:</strong> Framework scaled design operations to handle 
+                  significantly higher request volume from 100+ PMs without proportional increase in design staff. Process 
+                  adopted by all 5 design teams, creating consistent experience for cross-functional partners.
+                </p>
+              </div>
+            </div>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-8 rounded-lg shadow-lg">
