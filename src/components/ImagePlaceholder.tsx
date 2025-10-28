@@ -2,10 +2,11 @@ import ExploreIcon from '@mui/icons-material/Explore'
 import SecurityIcon from '@mui/icons-material/Security'
 import TrendingUpIcon from '@mui/icons-material/TrendingUp'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
+import GroupsIcon from '@mui/icons-material/Groups'
 
 interface ImagePlaceholderProps {
   gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo' | 'teal-sapphire'
-  iconType: 'framework' | 'leadership' | 'crisis' | 'strategy'
+  iconType: 'framework' | 'leadership' | 'crisis' | 'strategy' | 'mentorship'
 }
 
 const gradientMap = {
@@ -20,7 +21,8 @@ const iconMap = {
   strategy: <ExploreIcon sx={{ fontSize: 64, color: 'white' }} />,
   framework: <SecurityIcon sx={{ fontSize: 64, color: 'white' }} />,
   leadership: <TrendingUpIcon sx={{ fontSize: 64, color: 'white' }} />,
-  crisis: <CheckCircleIcon sx={{ fontSize: 64, color: 'white' }} />
+  crisis: <CheckCircleIcon sx={{ fontSize: 64, color: 'white' }} />,
+  mentorship: <GroupsIcon sx={{ fontSize: 64, color: 'white' }} />
 }
 
 export default function ImagePlaceholder({ gradient, iconType }: ImagePlaceholderProps) {

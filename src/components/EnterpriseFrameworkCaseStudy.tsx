@@ -131,17 +131,17 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="bg-white rounded-lg p-5 shadow-sm">
                   <div className="text-sm text-gray-600 mb-2">Organization Scope</div>
                   <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      <strong className="text-blue-700">50+ designers</strong> across 5 design teams
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span><strong className="text-blue-700">50+ designers</strong> across 5 design teams</span>
                     </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      <strong className="text-blue-700">100+ Product Managers</strong> submitting design requests
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span><strong className="text-blue-700">100+ Product Managers</strong> submitting design requests</span>
                     </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                      Enterprise-wide process transformation
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span>Enterprise-wide process transformation</span>
                     </li>
                   </ul>
                 </div>
@@ -149,17 +149,17 @@ export default function EnterpriseFrameworkCaseStudy() {
                 <div className="bg-white rounded-lg p-5 shadow-sm">
                   <div className="text-sm text-gray-600 mb-2">Efficiency Gains</div>
                   <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                      <strong className="text-green-700">86% reduction</strong> in past-due design delivery
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span><strong className="text-green-700">86% reduction</strong> in past-due design delivery</span>
                     </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                      Absorbed <strong className="text-green-700">30-40% more requests</strong> without headcount increase
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span>Absorbed <strong className="text-green-700">30-40% more requests</strong> without headcount increase</span>
                     </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-                      Reduced PM/designer escalations to structured collaboration
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span>Reduced PM/designer escalations to structured collaboration</span>
                     </li>
                   </ul>
                 </div>

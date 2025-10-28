@@ -32,7 +32,7 @@ export default function CaseStudies({ showAll = false }: { showAll?: boolean }) 
       category: "Team Development",
       link: "/case-studies/leadership-development",
       gradient: "teal-sapphire" as const,
-      iconType: "leadership" as const
+      iconType: "mentorship" as const
     },
     {
       title: "Strategic Alignment Initiative",

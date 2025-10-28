@@ -25,7 +25,7 @@ export default function StrategicAlignmentCaseStudy() {
       <section className="py-16 bg-gradient-to-r from-purple-50 to-indigo-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8 text-gray-900">STAR Story: React Redesign Initiative</h2>
+            <h2 className="text-3xl font-bold mb-8 text-gray-900">React Redesign Initiative</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               A strategic design leadership initiative that aligned short-term visual improvements with 
               long-term technical modernization, demonstrating design's strategic value in a dev-led culture.

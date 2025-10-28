@@ -110,20 +110,23 @@ export default function TalentDevelopmentCaseStudy() {
 
                 <div className="bg-white/60 rounded-lg p-5 border border-purple-200 mb-4">
                   <h4 className="font-semibold text-gray-900 mb-3">Cultural Shift</h4>
-                  <div className="space-y-2 text-sm text-gray-700">
-                    <p>
-                      <strong className="text-purple-700">Unified Performance Expectations:</strong> Created shared language for 
-                      growth and development across entire design organization
-                    </p>
-                    <p>
-                      <strong className="text-purple-700">Standardized Growth Paths:</strong> Clear expectations reduced ambiguity 
-                      that often leads to designer attrition
-                    </p>
-                    <p>
-                      <strong className="text-purple-700">Leadership Pipeline:</strong> Scorecard system identified high-performers 
-                      for leadership track development
-                    </p>
-                  </div>
+                  <ul className="space-y-2 text-sm text-gray-700">
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span><strong className="text-purple-700">Unified Performance Expectations:</strong> Created shared language for 
+                      growth and development across entire design organization</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span><strong className="text-purple-700">Standardized Growth Paths:</strong> Clear expectations reduced ambiguity 
+                      that often leads to designer attrition</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                      <span><strong className="text-purple-700">Leadership Pipeline:</strong> Scorecard system identified high-performers 
+                      for leadership track development</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
               

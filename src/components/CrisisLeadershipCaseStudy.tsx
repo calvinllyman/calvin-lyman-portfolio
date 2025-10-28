@@ -520,8 +520,7 @@ export default function CrisisLeadershipCaseStudy() {
             <div className="mt-8 bg-gradient-to-r from-red-50 to-rose-50 border-l-4 border-red-500 p-6 rounded-lg">
               <p className="text-gray-700 italic leading-relaxed">
                 We treated change as something we do <strong className="text-red-700">with</strong> people, not <strong className="text-red-700">to</strong> them—listening 
-                first, then co-creating expectations. <span className="text-red-600">"Let each of you look not only to his own interests, 
-                but also to the interests of others."</span> — Philippians 2:4
+                first, then co-creating expectations.
               </p>
             </div>
           </div>
