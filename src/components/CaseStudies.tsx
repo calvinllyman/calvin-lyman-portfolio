@@ -41,10 +41,18 @@ export default function CaseStudies({ showAll = false }: { showAll?: boolean }) 
       link: "/case-studies/strategic-alignment",
       gradient: "purple-indigo" as const,
       iconType: "strategy" as const
+    },
+    {
+      title: "Design Projects",
+      description: "Product design work from leading enterprise HR technology initiatives including Beti, GONE, Expense Management, Clue, and Time & Attendance tools",
+      category: "Product Design",
+      link: "/case-studies/design-projects",
+      gradient: "blue-cyan" as const,
+      iconType: "product" as const
     }
   ]
   
-  // Show only first 3 on homepage, all 4 on dedicated page
+  // Show only first 3 on homepage, all 6 on dedicated page
   const caseStudies = showAll ? allCaseStudies : allCaseStudies.slice(0, 3)
 
   return (

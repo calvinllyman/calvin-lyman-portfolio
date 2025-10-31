@@ -3,10 +3,11 @@ import SecurityIcon from '@mui/icons-material/Security'
 import TrendingUpIcon from '@mui/icons-material/TrendingUp'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 import GroupsIcon from '@mui/icons-material/Groups'
+import DesignServicesIcon from '@mui/icons-material/DesignServices'
 
 interface ImagePlaceholderProps {
-  gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo' | 'teal-sapphire'
-  iconType: 'framework' | 'leadership' | 'crisis' | 'strategy' | 'mentorship'
+  gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo' | 'teal-sapphire' | 'blue-cyan'
+  iconType: 'framework' | 'leadership' | 'crisis' | 'strategy' | 'mentorship' | 'product'
 }
 
 const gradientMap = {
@@ -14,7 +15,8 @@ const gradientMap = {
   'green-emerald': 'from-green-600 via-emerald-500 to-teal-600', 
   'red-rose': 'from-red-600 via-red-500 to-rose-600',
   'purple-indigo': 'from-purple-600 via-indigo-500 to-violet-600',
-  'teal-sapphire': 'from-teal-600 via-cyan-500 to-sky-600'
+  'teal-sapphire': 'from-teal-600 via-cyan-500 to-sky-600',
+  'blue-cyan': 'from-blue-600 via-cyan-500 to-cyan-600'
 }
 
 const iconMap = {
@@ -22,7 +24,8 @@ const iconMap = {
   framework: <SecurityIcon sx={{ fontSize: 64, color: 'white' }} />,
   leadership: <TrendingUpIcon sx={{ fontSize: 64, color: 'white' }} />,
   crisis: <CheckCircleIcon sx={{ fontSize: 64, color: 'white' }} />,
-  mentorship: <GroupsIcon sx={{ fontSize: 64, color: 'white' }} />
+  mentorship: <GroupsIcon sx={{ fontSize: 64, color: 'white' }} />,
+  product: <DesignServicesIcon sx={{ fontSize: 64, color: 'white' }} />
 }
 
 export default function ImagePlaceholder({ gradient, iconType }: ImagePlaceholderProps) {
