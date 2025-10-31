@@ -49,10 +49,18 @@ export default function CaseStudies({ showAll = false }: { showAll?: boolean }) 
       link: "/case-studies/design-projects",
       gradient: "blue-cyan" as const,
       iconType: "product" as const
+    },
+    {
+      title: "Figma Make Design System",
+      description: "Comprehensive design system exploring modern component architecture, patterns, and accessibility-first design principles",
+      category: "Design Systems",
+      link: "/case-studies/figma-make",
+      gradient: "pink-purple" as const,
+      iconType: "design-system" as const
     }
   ]
   
-  // Show only first 3 on homepage, all 6 on dedicated page
+  // Show only first 3 on homepage, all 7 on dedicated page
   const caseStudies = showAll ? allCaseStudies : allCaseStudies.slice(0, 3)
 
   return (
