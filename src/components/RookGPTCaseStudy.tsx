@@ -150,6 +150,43 @@ export default function RookGPTCaseStudy() {
         </div>
       </section>
 
+      {/* Interactive Prototype */}
+      <section className="py-16 bg-gradient-to-br from-slate-800 to-slate-950">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-4 text-white">Try the Interactive Prototype</h2>
+            <p className="text-slate-300 mb-8 text-lg">
+              Experience the RookGPT mobile app design in action. Click through the prototype to explore the user interface and key interactions.
+            </p>
+            
+            <div className="bg-white rounded-xl shadow-2xl p-8 mb-8">
+              <div className="flex justify-center">
+                <div style={{ width: '375px', height: '667px', maxWidth: '100%' }}>
+                  <iframe
+                    style={{ width: '100%', height: '100%', border: 'none', borderRadius: '12px' }}
+                    src="https://power-office-93036585.figma.site/#/analyze"
+                    title="RookGPT Mobile Prototype"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://power-office-93036585.figma.site/#/analyze"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition-all duration-200 shadow-lg hover:shadow-xl"
+            >
+              <span>Open Full Prototype</span>
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Navigation */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6">
