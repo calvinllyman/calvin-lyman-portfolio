@@ -1,17 +1,17 @@
 import Breadcrumb from '@/components/Breadcrumb'
-import FigmaMakeCaseStudy from '@/components/FigmaMakeCaseStudy'
+import RookGPTCaseStudy from '@/components/RookGPTCaseStudy'
 
-export default function FigmaMakePage() {
+export default function RookGPTPage() {
   return (
     <div>
       <Breadcrumb 
         items={[
           { name: 'Home', href: '/' },
           { name: 'Case Studies', href: '/#case-studies' },
-          { name: 'Uplift - Community Health Worker Training Platform', href: '/case-studies/figma-make' }
+          { name: 'RookGPT – AI Chess Coach', href: '/case-studies/rookgpt' }
         ]} 
       />
-      <FigmaMakeCaseStudy />
+      <RookGPTCaseStudy />
     </div>
   )
 }

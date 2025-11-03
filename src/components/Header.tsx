@@ -59,7 +59,7 @@ export default function Header() {
           </motion.a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-4 xl:space-x-8">
+          <nav className="hidden xl:flex items-center space-x-4 xl:space-x-8">
             {navigation.map((item) => (
               <button
                 key={item.name}
@@ -73,7 +73,7 @@ export default function Header() {
           </nav>
 
           {/* CTA Button - Desktop */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden xl:flex items-center space-x-4">
             <a
               href="/Calvin_Lyman_Resume.pdf"
               download="Calvin_Lyman_Resume.pdf"
@@ -87,7 +87,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors touch-manipulation"
+            className="xl:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors touch-manipulation"
             aria-label="Toggle menu"
           >
             <div className="w-6 h-6 flex flex-col justify-center items-center">
@@ -103,7 +103,7 @@ export default function Header() {
           initial={false}
           animate={{ height: isMenuOpen ? 'auto' : 0, opacity: isMenuOpen ? 1 : 0 }}
           transition={{ duration: 0.3 }}
-          className="md:hidden overflow-hidden"
+          className="xl:hidden overflow-hidden"
         >
           <div className="py-4 space-y-3 border-t border-gray-200">
             {navigation.map((item) => (

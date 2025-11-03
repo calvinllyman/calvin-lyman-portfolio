@@ -5,10 +5,11 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 import GroupsIcon from '@mui/icons-material/Groups'
 import DesignServicesIcon from '@mui/icons-material/DesignServices'
 import DashboardIcon from '@mui/icons-material/Dashboard'
+import PsychologyIcon from '@mui/icons-material/Psychology'
 
 interface ImagePlaceholderProps {
-  gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo' | 'teal-sapphire' | 'blue-cyan' | 'pink-purple'
-  iconType: 'framework' | 'leadership' | 'crisis' | 'strategy' | 'mentorship' | 'product' | 'design-system'
+  gradient: 'blue-purple' | 'green-emerald' | 'red-rose' | 'purple-indigo' | 'teal-sapphire' | 'blue-cyan' | 'pink-purple' | 'slate-gray'
+  iconType: 'framework' | 'leadership' | 'crisis' | 'strategy' | 'mentorship' | 'product' | 'design-system' | 'ai-coach'
 }
 
 const gradientMap = {
@@ -18,7 +19,8 @@ const gradientMap = {
   'purple-indigo': 'from-purple-600 via-indigo-500 to-violet-600',
   'teal-sapphire': 'from-teal-600 via-cyan-500 to-sky-600',
   'blue-cyan': 'from-blue-600 via-cyan-500 to-cyan-600',
-  'pink-purple': 'from-pink-600 via-pink-500 to-purple-600'
+  'pink-purple': 'from-pink-600 via-pink-500 to-purple-600',
+  'slate-gray': 'from-slate-700 via-slate-600 to-gray-700'
 }
 
 const iconMap = {
@@ -28,7 +30,8 @@ const iconMap = {
   crisis: <CheckCircleIcon sx={{ fontSize: 64, color: 'white' }} />,
   mentorship: <GroupsIcon sx={{ fontSize: 64, color: 'white' }} />,
   product: <DesignServicesIcon sx={{ fontSize: 64, color: 'white' }} />,
-  'design-system': <DashboardIcon sx={{ fontSize: 64, color: 'white' }} />
+  'design-system': <DashboardIcon sx={{ fontSize: 64, color: 'white' }} />,
+  'ai-coach': <PsychologyIcon sx={{ fontSize: 64, color: 'white' }} />
 }
 
 export default function ImagePlaceholder({ gradient, iconType }: ImagePlaceholderProps) {

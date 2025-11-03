@@ -46,6 +46,15 @@ export default function DesignProjectsCaseStudy() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">Beti – Employee-Driven Payroll Automation</h2>
             
+            {/* Product Image */}
+            <div className="mb-8">
+              <img 
+                src="/images/paycom/beti.png" 
+                alt="Beti payroll dashboard showing automated payroll updates and check approvals"
+                className="w-full rounded-xl shadow-lg"
+              />
+            </div>
+            
             {/* Problem */}
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4 text-gray-900 flex items-center">
@@ -166,6 +175,15 @@ export default function DesignProjectsCaseStudy() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">GONE – Automated Time-Off Approvals</h2>
             
+            {/* Product Image */}
+            <div className="mb-8">
+              <img 
+                src="/images/paycom/gone.png" 
+                alt="GONE mobile app showing time-off request interface and employee menu"
+                className="w-full rounded-xl shadow-lg"
+              />
+            </div>
+            
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4 text-gray-900 flex items-center">
                 <span className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mr-3 flex-shrink-0 text-red-600 font-bold">P</span>
@@ -260,6 +278,15 @@ export default function DesignProjectsCaseStudy() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">Expense Management – Simplifying Reimbursements</h2>
+            
+            {/* Product Image */}
+            <div className="mb-8">
+              <img 
+                src="/images/paycom/expense-management.png" 
+                alt="Expense Management mobile interface showing receipt capture and expense approval"
+                className="w-full rounded-xl shadow-lg"
+              />
+            </div>
             
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4 text-gray-900 flex items-center">
@@ -373,6 +400,15 @@ export default function DesignProjectsCaseStudy() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">Clue – COVID-19 Vaccination Tracking for Compliance</h2>
             
+            {/* Product Image */}
+            <div className="mb-8">
+              <img 
+                src="/images/paycom/clue.png" 
+                alt="Clue immunization tracking dashboard showing vaccination status and compliance metrics"
+                className="w-full rounded-xl shadow-lg"
+              />
+            </div>
+            
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4 text-gray-900 flex items-center">
                 <span className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mr-3 flex-shrink-0 text-red-600 font-bold">P</span>
@@ -483,6 +519,15 @@ export default function DesignProjectsCaseStudy() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">Time & Attendance Configurator – Self-Service Policy Management</h2>
+            
+            {/* Product Image */}
+            <div className="mb-8">
+              <img 
+                src="/images/paycom/time-attendance.png" 
+                alt="Time and Attendance Configurator showing pay class setup and configuration options"
+                className="w-full rounded-xl shadow-lg"
+              />
+            </div>
             
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4 text-gray-900 flex items-center">
